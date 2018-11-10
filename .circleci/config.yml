@@ -42,7 +42,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            jupyter nbconvert --execute --to html task_0.ipynb
+            ipython nbconvert --execute --to html task_0.ipynb
 
       - store_artifacts:
           path: html
