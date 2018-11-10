@@ -45,6 +45,5 @@ jobs:
             ipython nbconvert --execute --to html task_0.ipynb
 
       - store_artifacts:
-          path: html
-          destination: html artifact
+          path: task_0.html
           
