@@ -42,9 +42,9 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python manage.py test
+            make run tests
 
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: html
+          destination: html artifact
           
