@@ -42,7 +42,6 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            jupyter notebook
             make Makefile
 
       - store_artifacts:
