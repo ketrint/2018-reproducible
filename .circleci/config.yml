@@ -42,7 +42,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-	    make kaggle
+            make kaggle
 
       - store_artifacts:
           path: kernel.html
