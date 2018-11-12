@@ -42,8 +42,11 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            ipython nbconvert --execute --to html task_html.ipynb
+	    make kaggle
 
       - store_artifacts:
-          path: task_0.html
+          path: kernel.html
+
+      - store_artifacts:
+	  path: task_html.html
           
