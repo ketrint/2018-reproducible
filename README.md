@@ -3,6 +3,4 @@
 
 # 2018-reproducible
 
-Reproduce the image from sklearn.org 
-
-Convert jupyter notebook into html format
+Kaggle competition integretion with CircleCI
